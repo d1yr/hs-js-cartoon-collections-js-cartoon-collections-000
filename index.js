@@ -39,5 +39,12 @@ return "no cheese!";
 }
 var words = ['ball', 'boat', 'car', 'cat'];
 function wordsWithB(words){
-  if charAt(0);
-};
+  var bwords = [];
+  for(i=0;i<words.length;i++){
+  if (words[i].charAt(0)=='b'){
+    bwords.push(words[i]);
+    console.log (bwords);
+  }
+  }
+  return bwords;
+}
