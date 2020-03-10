@@ -39,5 +39,5 @@ return "no cheese!";
 }
 var words = ['ball', 'boat', 'car', 'cat'];
 function wordsWithB(words){
-  if (words);
+  if charAt(0);
 };
