@@ -3,7 +3,7 @@
  // 'i', then return the array with 'join' operation and quotations
 function dwarfRollCall(dwarves) {
  var array =[];
-   for (var i=0;i<dwarves.length;i++){
+   for (var i=0;i<dwarves.length/2;i++){
      array.push(`${i+1}. ${dwarves[i]} `);
    }
    return array.join("");
@@ -39,12 +39,12 @@ return "no cheese!";
 }
 var words = ['ball', 'boat', 'car', 'cat'];
 function wordsWithB(words){
-  var bwords = [];
+  var bWords = [];
   for(i=0;i<words.length;i++){
   if (words[i].charAt(0)=='b'){
-    bwords.push(words[i]);
-    console.log (bwords);
+    bWords.push(words[i]);
+    console.log (bWords);
   }
   }
-  return bwords;
+  return bWords;
 }
