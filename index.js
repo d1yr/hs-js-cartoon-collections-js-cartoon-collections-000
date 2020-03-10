@@ -30,9 +30,14 @@ function findTheCheese (foods) {
     if (foods[i]=="cheddar"
     ||foods[i]=="gouda"
     ||foods[i]=="mozzerella"
+    ||foods[i]=="swiss cheese"
   ){
     return foods[i];
    }
 }
 return "no cheese!";
 }
+var words = ['ball', 'boat', 'car', 'cat'];
+function wordsWithB(words){
+  if();
+};
